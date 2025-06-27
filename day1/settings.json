@@ -1,0 +1,47 @@
+{
+  "screen_width": 960,
+  "screen_height": 540,
+  "fps": 60,
+
+  "gravity": 0.6,
+  "jump_velocity": 13,
+  "move_speed": 6,
+
+  "attack_cooldown_ms": 500,
+  "attack_duration_ms": 120,
+  "attack_range": 45,
+  "attack_damage": 8,
+
+  "base_knockback": 0.1,
+  "knockback_scaling": 0.0012,
+  "upward_knockback": 0.02,
+
+  "hitstun_ms": 250,
+  "horizontal_friction": 0.90,
+  "air_control_factor": 0.22,
+
+  "stage_rect": [150, 400, 660, 25],
+
+  "player_width": 32,
+  "player_height": 64,
+  "face_size": 12,
+
+  "ui_font_size": 26,
+  "damage_bar": {
+    "width": 64,
+    "height": 8,
+    "low":  [255,  80,  80],
+    "high": [255, 255,  80]
+  },
+
+  "colours": {
+    "bg": [25, 25, 30],
+    "stage": [140, 140, 140],
+    "p1_body": [225, 55, 55],
+    "p1_face": [255, 200, 200],
+    "p2_body": [55, 55, 225],
+    "p2_face": [200, 200, 255],
+    "attack_flash": [255, 255, 0],
+    "text": [255, 255, 255]
+  }
+}

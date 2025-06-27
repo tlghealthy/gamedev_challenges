@@ -1,0 +1,79 @@
+{
+    "screen_width": 960,
+    "screen_height": 540,
+    "fps": 60,
+  
+    "gravity": 0.6,
+    "jump_velocity": -13,
+    "move_speed": 6,
+    "air_control_factor": 0.22,
+    "horizontal_friction": 0.90,
+  
+    "attack_cooldown_ms": 500,
+    "attack_duration_ms": 120,
+    "attack_range": 45,
+    "attack_damage": 8,
+  
+    "base_knockback": 6.0,
+    "knockback_scaling": 0.12,
+    "upward_knockback": 3.0,
+    "hitstun_ms": 250,
+  
+    "stage_gen": {
+      "main_min_w": 580,
+      "main_max_w": 820,
+      "main_y": 400,
+      "main_y_variance": 30,
+      "margin_x": 40,
+      "main_h": 25,
+  
+      "float_chance": 0.8,
+      "float_min_count": 0,
+      "float_max_count": 3,
+      "float_min_w": 120,
+      "float_max_w": 240,
+      "float_h": 18,
+      "float_min_gap": 130,
+      "float_min_y_above": 100,
+      "float_max_y_above": 220
+    },
+  
+    "player_width": 32,
+    "player_height": 64,
+    "face_size": 12,
+  
+    "ui_font_size": 26,
+    "damage_bar": {
+      "width": 64,
+      "height": 8,
+      "low":  [255,  80,  80],
+      "high": [255, 255,  80]
+    },
+  
+    "modifiers": {
+      "double_jump": { "label": "Double Jump" },
+      "dash": {
+        "label": "Dash (double-tap)",
+        "dash_speed": 12,
+        "dash_window_ms": 250,
+        "dash_cooldown_ms": 600
+      },
+  
+      "heavy_punch": { "label": "Heavy Punch" },
+      "lightweight": { "label": "Lightweight" },
+      "shield":      { "label": "Shield (1/block)" }
+    },
+  
+    "colours": {
+      "bg": [25, 25, 30],
+      "stage": [140, 140, 140],
+      "p1_body": [225, 55, 55],
+      "p1_face": [255, 200, 200],
+      "p2_body": [55, 55, 225],
+      "p2_face": [200, 200, 255],
+      "attack_flash": [255, 255, 0],
+      "text": [255, 255, 255],
+      "ui_yellow": [255, 230, 60]
+    }
+  }
+  
