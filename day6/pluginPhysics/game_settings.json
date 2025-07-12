@@ -1,0 +1,12 @@
+{
+  "WIN_W": 600,
+  "WIN_H": 400,
+  "PLAYER_SIZE": [40, 40],
+  "GROUND_SIZE": [400, 40],
+  "FPS": 60,
+  "GRAVITY": 300,
+  "MOVE_FORCE": 2400,
+  "JUMP_FORCE": -10000,
+  "PLAYER_DAMPENING": 0.95,
+  "GROUND_DAMPENING": 0.6
+} 
