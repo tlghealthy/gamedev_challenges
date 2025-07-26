@@ -1,0 +1,10 @@
+Make a beat 'em up game featuring 2 mechanics: bouncing and leveling up and give the game a feeling of noir
+Develop the game in 3 phases:
+Phase 1: phase 1 is to create the game design document
+Phase 2: phase 2 is to create the object oriented design document
+Phase 3: phase 3 is to create the code based on the first two documents
+Use godot engine to develop the game
+Use placeholder art and sounds which can easily be replaced with actual art and sounds
+Use godot development techniques that don't depend on the editor gui if possible, prefer using code to create the game
+Prefer a coding style which is compact and efficient
+

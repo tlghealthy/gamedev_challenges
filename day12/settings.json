@@ -1,0 +1,38 @@
+{
+  "physics": {
+    "gravity": [0, 980],
+    "substeps": 3,
+    "iterations": 2,
+    "damping": 0.98,
+    "friction": 0.3,
+    "restitution": 0.5
+  },
+  "particles": {
+    "max_particles": 200,
+    "default_mass": 1.0,
+    "default_radius": 5.0,
+    "collision_margin": 0.1
+  },
+  "constraints": {
+    "rope": {
+      "default_stiffness": 0.8,
+      "default_damping": 0.1,
+      "max_stretch": 1.5
+    },
+    "distance": {
+      "default_stiffness": 0.9,
+      "default_damping": 0.05
+    },
+    "rigid": {
+      "default_stiffness": 1.0,
+      "default_damping": 0.02
+    }
+  },
+  "rendering": {
+    "draw_constraints": true,
+    "draw_particles": true,
+    "particle_color": [255, 255, 255],
+    "rope_color": [100, 100, 100],
+    "rigid_color": [200, 200, 200]
+  }
+} 

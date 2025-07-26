@@ -1,0 +1,5 @@
+Prototype an abstract arcade game.
+Use pygame-ce.
+Use colored shapes for visuals.
+Make a unique experience by combining proven game mechanics in a new way.
+Put any necessary controls and rules to play the game in Readme.md.

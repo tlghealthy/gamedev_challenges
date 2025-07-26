@@ -1,0 +1,6 @@
+Create a game state manager which can be dropped into most small pygame projects and easily integrated.
+Assume projects that use it will use pygame-ce.
+Before coding, create a systems design plan in the Readme.md.
+Use a compact coding style where few lines are used but each line still has high clarity.
+Keep the interface simple.
+Write at least one good test which demonstrates the features well.

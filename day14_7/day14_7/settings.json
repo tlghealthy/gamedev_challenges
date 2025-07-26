@@ -1,0 +1,35 @@
+{
+    "physics": {
+        "player": {
+            "elasticity": 0.3,
+            "friction": 0.99,
+            "mass": 1,
+            "radius": 25
+        },
+        "obstacles": {
+            "elasticity": 0.3,
+            "friction": 0.8,
+            "mass": 2,
+            "radius": 15
+        },
+        "boundaries": {
+            "elasticity": 0.3,
+            "friction": 0.99,
+            "thickness": 20
+        },
+        "gravity": {
+            "x": 0,
+            "y": 90
+        }
+    },
+    "launch": {
+        "magnitude_multiplier": 1.8,
+        "max_magnitude": 400,
+        "velocity_threshold": 10
+    },
+    "display": {
+        "width": 900,
+        "height": 600,
+        "fps": 60
+    }
+} 

@@ -1,0 +1,61 @@
+{
+  "WINDOW": {
+    "WIDTH": 800,
+    "HEIGHT": 600,
+    "FPS": 120
+  },
+  "COLORS": {
+    "BLACK": [0, 0, 0],
+    "WHITE": [255, 255, 255],
+    "GREEN": [0, 255, 0],
+    "ORANGE": [255, 165, 0],
+    "RED": [255, 0, 0],
+    "BLUE": [0, 0, 255]
+  },
+  "GAME": {
+    "TOTAL_WAVES": 5,
+    "SQUARES_TO_PROTECT": 6,
+    "MAX_SQUARES_LOST": 3,
+    "SHOT_RELOAD_TIME": 0.5,
+    "EXPLOSION_DURATION": 0.9,
+    "WAVE_CLEAR_DISPLAY_TIME": 1.0
+  },
+  "SHOT": {
+    "RADIUS": 6,
+    "EXPLOSION_RADIUS": 55,
+    "DIRECT_HIT_RADIUS": 12,
+    "PLAYER_SPEED": 330
+  },
+  "ATTACKER": {
+    "RADIUS": 6,
+    "ANGLE_VARIANCE": 15,
+    "ENEMY_BASE_SPEED": 70,
+    "SPEEDS": [80, 110, 140, 170, 200],
+    "COUNTS": [6, 10, 18, 28, 44],
+    "SPAWN_GAPS": [1.0, 0.7, 0.5, 0.4, 0.2],
+    "SPAWN_VARIATION": {
+      "NO_WAIT_CHANCE": 0.8,
+      "LOW_WAIT": 0.5,
+      "MEDIUM_WAIT": 1.6,
+      "HIGH_WAIT": 2.2,
+      "MAX_WAIT": 4.0
+    }
+  },
+  "SQUARE": {
+    "SIZE": 40,
+    "MARGIN": 10,
+    "Y_POSITION": 550
+  },
+  "SCORING": {
+    "INTERCEPT_BONUS": 10,
+    "SQUARE_PENALTY": -25,
+    "WAVE_CLEAR_MULTIPLIER": 100,
+    "CHAIN_REACTION_BONUS": 5,
+    "MULTI_KILL_BONUS": 15
+  },
+  "FONTS": {
+    "TITLE_SIZE": 48,
+    "HUD_SIZE": 24,
+    "WAVE_CLEAR_SIZE": 36
+  }
+} 

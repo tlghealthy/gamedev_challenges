@@ -1,0 +1,35 @@
+Create this small game:
+Use pygame-ce and pygame_gui.
+Before coding, create a systems design plan in the Readme.md.
+Use a compact coding style where few lines are used but each line still has high clarity.
+Put constants, paths, and adjustable variables in settings.json for easy tweaking.
+
+Game description: “Defend”
+1. Objective
+ Protect 6 bottom squares for 5 waves.
+ • Lose wave → ≥3 squares gone.
+ • Win game → clear wave 5 with ≥1 square left.
+2. Controls
+ Mouse = aim | Left-click = fire (1 s reload).
+ Shot = green 6 px circle from bottom center → detonates at click point, spawns 0.6 s green ring (35 px).
+3. Threats
+ “Attackers” = orange 6 px circles from screen top.
+ Dir: random bottom-square ±15°.
+ Speed by wave: 80, 110, 140, 170, 200 px/s.
+ Count by wave: 6, 10, 14, 18, 24.
+ Gap shrinks from 1.2 s to 0.4 s.
+ Touch explosion / square / floor → small orange blast (pure VFX).
+4. Scoring
+ +10 per attacker intercepted
+ –25 per square lost
+ Wave-clear bonus = 100 × squares alive
+ HUD (top): Score #### •• Lvl n/5
+5. Flow
+ Show “DEFEND” → first click hides text → spawn attackers until list empty.
+ If <3 squares lost ⇒ next wave (reload shots, reset lost-this-level).
+ Else game-over.
+ After wave 5 or on loss: display final score.
+6. Feedback Cues
+ Intercept → ring flash
+ Square hit → square flashes red, then disappears
+ Wave clear → “Wave Clear!” banner 1 s

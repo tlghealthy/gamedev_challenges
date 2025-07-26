@@ -1,0 +1,8 @@
+Create this small game:
+Use pygame-ce and pygame_gui.
+Before coding, create a systems design plan in the Readme.md.
+Use a compact coding style where few lines are used but each line still has high clarity.
+Put constants, paths, and adjustable variables in settings.json for easy tweaking.
+
+Game description: Abstract Tower Defense
+Make an abstract tower defense game which uses colored shapes and as little text as possible to capture the essence of the tower defense game genre. Assume the player knows how to play tower defense games. Make several levels. The starting level should be very simple and easy but still require the player to learn the mechanics to complete. Then subsequent levels increase the challenge.

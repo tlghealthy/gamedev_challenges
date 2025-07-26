@@ -1,0 +1,6 @@
+Design and code a small grid based puzzle using pygame.
+Don't tell me how it works or give me too many hints.
+I should be able to figure out just enough to solve it by playing it.
+Make sure to tell the player the controls.
+Make sure the puzzle is solvable.
+Let the player know when they have solved the puzzle.

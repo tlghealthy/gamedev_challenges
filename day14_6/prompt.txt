@@ -1,0 +1,9 @@
+Prototype an abstract arcade game.
+Come up with the idea on your own but take inspiration from the many mechanics in famous arcade games.
+Make a unique experience by mixing some of the proven game mechanics together in a new way.
+The game experience should have at least 3 levels.
+Before each level give a brief description of the mechanics.
+After each level add a new mechanic.
+Use pygame-ce.
+Use colored shapes for visuals.
+Put any necessary controls and rules to play the game in Readme.md.

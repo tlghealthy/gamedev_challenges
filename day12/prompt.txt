@@ -1,0 +1,6 @@
+Code a reusable position based dynamics physics engine for pygame prototypes.
+Use settings.json for constants and adjustable variables.
+Focus on keeping the whole thing small and lightweight.
+The games it will be used for will have less than 200 physics objects at one time.
+We want to get the most bang for the buck in terms of physics based gameplay.
+Support soft ropes and ridgid objects and allow for a variety of stiffness.

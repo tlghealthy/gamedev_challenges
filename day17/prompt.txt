@@ -1,0 +1,7 @@
+Make a short shmup game that plays for around 10min per run.
+Use procedural generation to generate interesting enemy patterns and attacks.
+Each run should feel unique because enemys and attack attributes are randomized within reasonable ranges.
+Use shapes and colors of varying size for all visuals.
+Utilize pygame-ce and any helpful libraries to complete the game.
+Prefer a coding style which is compact and efficient.
+

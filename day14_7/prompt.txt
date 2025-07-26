@@ -1,0 +1,11 @@
+Prototype an abstract simple physics-based game.
+Use pygame-ce and pymunk.
+Use colored shapes for visuals.
+Use simple physics with impulses.
+You can choose whether the game has gravity or is in space.
+Collision can be all circles, capsules, and static aabbs for simplicty.
+Try to be creative with what the player's objectives are.
+The game experience should have at 3 short levels.
+Before each level give a brief description of the mechanics and make sure all text fit comfortably on screen so it can be read.
+After each level add a new mechanic.
+Put any necessary controls and rules to play the game in Readme.md.
